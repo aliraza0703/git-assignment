@@ -1,0 +1,55 @@
+/* Set default styles for all elements */
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the form container */
+  form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the form header */
+  form h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  /* Style the form labels */
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the form inputs */
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"],
+  form select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the form submit button */
+  form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the form submit button on hover */
+  form input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
